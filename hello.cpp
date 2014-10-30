@@ -1,4 +1,7 @@
 #include <iostream>
 using namespace std;
 
-cout << "Hello, World"
+int main(int argc, char* argv[])
+{
+  cout << "Hello, " << argv[10] << "!" << endl;
+};
