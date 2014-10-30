@@ -3,5 +3,6 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-  cout << "Hello, " << argv[10] << "!" << endl;
+  string name = argv[10] || "World"
+  cout << "Hello, " << name << "!" << endl;
 };
